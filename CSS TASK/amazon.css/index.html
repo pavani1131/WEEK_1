@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>E-Commerce Site</h1>
+    </header>
+
+    <main>
+        <aside class="filters">
+            <h2>Filter By</h2>
+            <div class="filter-category">
+                <h3>Category</h3>
+                <label><input type="checkbox" name="category" value="electronics" onclick="filterProducts()"> Electronics</label><br>
+                <label><input type="checkbox" name="category" value="clothing" onclick="filterProducts()"> Clothing</label><br>
+                <label><input type="checkbox" name="category" value="home" onclick="filterProducts()"> Home</label>
+            </div>
+            <div class="filter-price">
+                <h3>Price Range</h3>
+                <label><input type="radio" name="price" value="0-50" onclick="filterProducts()"> $0 - $50</label><br>
+                <label><input type="radio" name="price" value="51-100" onclick="filterProducts()"> $51 - $100</label><br>
+                <label><input type="radio" name="price" value="101-200" onclick="filterProducts()"> $101 - $200</label>
+            </div>
+        </aside>
+
+        <section class="product-listing">
+            <div class="product-card" data-category="electronics" data-price="49.99">
+                <img src="https://purepng.com/public/uploads/large/purepng.com-android-smartphonepersonal-computersmartphonemobile-operating-systemcellular-phoneandroid-17015283912796apux.png" alt="Smartphone XYZ">
+                <h3>Smartphone XYZ</h3>
+                <p>$49.99</p>
+                <p>Electronics</p>
+                <p>Latest model with 64GB storage, 
+                    4GB RAM, 
+                    and a stunning 6.5-inch display.</p>
+            </div>
+            <div class="product-card" data-category="clothing" data-price="79.99">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.hosIOB-LLvbm_UtuwFiOKgHaHa&pid=Api&P=0&h=180" alt="Designer T-Shirt">
+                <h3>Designer T-Shirt</h3>
+                <p>$79.99</p>
+                <p>Clothing</p>
+                <p>Premium quality cotton t-shirt with a stylish design,
+                     available in various sizes.</p>
+            </div>
+            <div class="product-card" data-category="home" data-price="129.99">
+                <img src="https://a.1stdibscdn.com/archivesE/upload/14102/30_15/pair_atomic_teak_double_slat_s4/pair_atomic_teak_double_slat_shade_floor_and_table_lamps4_l.jpeg" alt="Modern Lamp">
+                <h3>Modern Lamp</h3>
+                <p>$129.99</p>
+                <p>Home</p>
+                <p>Sleek and modern lamp with adjustable brightness and an elegant design.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

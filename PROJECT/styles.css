@@ -1,0 +1,114 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff; /* Default link color for navigation */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections styles */
+section {
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 800px;
+    background-color: #333; /* Dark background for sections */
+    color: #fff; /* Light text color for sections */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Project styles */
+.project {
+    margin-bottom: 2em;
+}
+
+/* Certification and Skills list styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #555; /* Darker background for lists */
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 4px;
+}
+
+/* Profile picture styles */
+.profile-pic {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1em auto;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Different link colors for sections */
+#about a {
+    color: #17a2b8; /* Cyan */
+}
+
+#projects a {
+    color: #28a745; /* Green */
+}
+
+#certifications a {
+    color: #ffc107; /* Yellow */
+}
+
+#skills a {
+    color: #dc3545; /* Red */
+}
+
+#internships a {
+    color: #6610f2; /* Purple */
+}
+
+#contact a {
+    color: #007bff; /* Blue */
+}
+
+#tech-projects a {
+    color: #fd7e14; /* Orange */
+}
